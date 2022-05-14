@@ -21,7 +21,8 @@ warned.
 package clib
 
 /*
-#cgo pkg-config: libxml-2.0
+#cgo LDFLAGS: -L${SRCDIR}/lib/linux -lxml2 -licui18n -licuuc -licudata -lz -llzma -lm --static
+#cgo CFLAGS: -I${SRCDIR}/include/libxml2
 #include <string.h>
 #include <stdbool.h>
 #include <stdio.h>
