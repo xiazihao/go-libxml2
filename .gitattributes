@@ -1,0 +1,6 @@
+clib/lib/linux/libxml2.a filter=lfs diff=lfs merge=lfs -text
+clib/lib/linux/libz.a filter=lfs diff=lfs merge=lfs -text
+clib/lib/linux/libicudata.a filter=lfs diff=lfs merge=lfs -text
+clib/lib/linux/libicui18n.a filter=lfs diff=lfs merge=lfs -text
+clib/lib/linux/libicuuc.a filter=lfs diff=lfs merge=lfs -text
+clib/lib/linux/liblzma.a filter=lfs diff=lfs merge=lfs -text
